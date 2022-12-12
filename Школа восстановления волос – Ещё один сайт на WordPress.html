@@ -11643,19 +11643,35 @@
                     class="helper__form helper__form--default"
                     id="modalForm"
                 >
-                    <input type="text" class="helper__form--input">
-                    <input type="text" class="helper__form--input">
-                    <input type="text" class="helper__form--input">
-                    <button type="button" class="helper__form--button">
+                    <label for="c_name">Ваше імʼя</label>
+                    <input
+                        type="text"
+                        class="helper__form--input"
+                        id="c_name"
+                    >
+                    <label for="c_name">Ваш номер телефону</label>
+                    <input
+                        type="tel"
+                        class="helper__form--input"
+                        id="c_phone"
+                    >
+                    <label for="c_msg">Ваше повідомлення</label>
+                    <textarea
+                        rows="3"
+                        id="c_msg"
+                        class="helper__form--textarea"
+                    >
+                    </textarea>
+                    <button
+                        type="button"
+                        class="helper__form--button"
+                        id="contacts_submit"
+                    >
                         contact us
                     </button>
                 </form>
                 <label class="helper__label" id="helper">
-                    <input
-                        type="checkbox"
-                        name="helper"
-                        class="helper__button"
-                    >
+                    <i class="fa-sharp fa-solid fa-envelope"></i>
                 </label>
             </div>
         </div>
